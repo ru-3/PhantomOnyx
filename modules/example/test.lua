@@ -14,12 +14,18 @@ local UserInputService = game:GetService("UserInputService")
 local LocalPlayer = Players.LocalPlayer
 
 local Window = Library:CreateWindow({
-	Title = "Phantom Onyx",
-	Subtitle = "Complete Library Example",
-	Version = "v2.0.0",
-	Theme = "Purple",
-	SaveFile = "PhantomOnyxExample",
-	Credits = { "Phantom Onyx", "Example Project" },
+    Title = "Phantom Onyx",
+    Subtitle = "Complete Library Example",
+    Version = "v2.0.0",
+    Theme = "Purple",
+    SaveFile = "PhantomOnyxExample",
+
+    Credits = {
+        {
+            Name = "Normal Guy",
+            Role = "Developer"
+        }
+    }
 })
 
 local DashboardTab = Window:AddTab("Dashboard", "home-quantum")
