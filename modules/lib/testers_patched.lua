@@ -1,3 +1,4 @@
+-- ([[This Library Was Cracked By Normal Guy]])
 do
 	local base = "https://raw.githubusercontent.com/ru-3/PhantomOnyx/refs/heads/main/modules/"
 	local old = "https://raw.githubusercontent.com/flazhy/QuantumLibrary/refs/heads/main/"
