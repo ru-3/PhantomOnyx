@@ -1,4 +1,4 @@
-local ThemeManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/Util/LibraryModule/Themes.lua"))()
+local ThemeManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/ru-3/PhantomOnyx/refs/heads/main/modules/util/Themes.lua"))()
 local TweenService = game:GetService("TweenService")
 local TextService = game:GetService("TextService")
 local HttpService = game:GetService("HttpService")
