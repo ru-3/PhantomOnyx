@@ -3050,11 +3050,11 @@ return (function(...)
     end
     list.MakePremiumSocialCard(overlay, {
       Label = "TikTok",
-      SubLabel = "@trustmenotcondom",
+      SubLabel = "@isawzeox",
       IconImg = "http://www.roblox.com/asset/?id=14620084334",
       AccentColor = Color3.fromRGB(210, 145, 255),
       BadgeText = "COPY",
-      CopyText = "https://www.tiktok.com/@trustmenotcondom?_t=ZS-8syewdU3Bxq&_r=1",
+      CopyText = "https://www.tiktok.com/@iwaszeox?_r=1&_t=ZS-9ARbJg6bJIr",
       OnClick = function()
         library.Notification:Notify({
           Title = "TikTok",
@@ -3064,11 +3064,11 @@ return (function(...)
     })
     list.MakePremiumSocialCard(overlay, {
       Label = "Discord",
-      SubLabel = "discord.gg/YEvpu5St2Z",
+      SubLabel = "We dont have right now",
       IconImg = "rbxassetid://129297846250682",
       AccentColor = Color3.fromRGB(114, 137, 255),
       BadgeText = "COPY",
-      CopyText = "https://discord.gg/YEvpu5St2Z",
+      CopyText = "Coming Soon",
       OnClick = function()
         library.Notification:Notify({
           Title = "Discord",
