@@ -1,4 +1,4 @@
-local source = game:HttpGet("https://raw.githubusercontent.com/ru-3/PhantomOnyx/refs/heads/main/modules/lib/library.lua")
+local source = game:HttpGet("https://raw.githubusercontent.com/ru-3/PhantomOnyx/refs/heads/main/modules/lib/PhantomOnyx.lua")
 local chunk, compileError = loadstring(source)
 assert(chunk, "Compile Error: " .. tostring(compileError))
 
