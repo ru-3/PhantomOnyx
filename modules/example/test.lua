@@ -28,12 +28,12 @@ local Window = Library:CreateWindow({
     }
 })
 
-local DashboardTab = Window:AddTab("Dashboard", "home-quantum")
-local PlayerTab = Window:AddTab("Player", "user-quantum")
-local VisualTab = Window:AddTab("Visuals", "visual-quantum")
-local AutomationTab = Window:AddTab("Automation", "misc-quantum")
-local TeleportTab = Window:AddTab("Teleport", "home-quantum")
-local SettingsTab = Window:AddTab("Settings", "misc-quantum")
+local DashboardTab = Window:AddTab("Dashboard", "home-phantom")
+local PlayerTab = Window:AddTab("Player", "user-phantom")
+local VisualTab = Window:AddTab("Visuals", "visual-phantom")
+local AutomationTab = Window:AddTab("Automation", "misc-phantom")
+local TeleportTab = Window:AddTab("Teleport", "home-phantom")
+local SettingsTab = Window:AddTab("Settings", "misc-phantom")
 
 local state = {
 	walkSpeed = 16,
