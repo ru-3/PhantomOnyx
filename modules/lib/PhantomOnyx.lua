@@ -1,6 +1,3 @@
--- Phantom Onyx Hub (UI library) -- recovered from Quantum Obfuscate Hider output.
--- Strings were decrypted and the protection layer removed. Original local variable names are lost
--- (the obfuscator strips them), so locals were renamed from how they are used. Behaviour is unchanged.
 return (function(...)
   if not game and (game.GetService and game:GetService("RunService")) or game.ClassName ~= "DataModel" or (typeof and typeof(game.Players) ~= "Instance") or not ((getmetatable and (setmetatable and (type and (pcall and (rawget and rawset)))))) then
     repeat
