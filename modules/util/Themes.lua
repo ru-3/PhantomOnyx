@@ -230,6 +230,29 @@ return {
             DisplayName = "Violet",
             PreviewColors = {Color3.fromRGB(170, 70, 240), Color3.fromRGB(130, 55, 200), Color3.fromRGB(70, 20, 130)}
         },
+                Halloween = {
+            Body = Color3.fromRGB(8, 6, 4),
+            Primary = Color3.fromRGB(4, 3, 2),
+            Lit = ColorSequence.new{
+                ColorSequenceKeypoint.new(0, Color3.fromRGB(20, 12, 6)),
+                ColorSequenceKeypoint.new(0.25, Color3.fromRGB(120, 45, 5)),
+                ColorSequenceKeypoint.new(0.5, Color3.fromRGB(230, 100, 10)),
+                ColorSequenceKeypoint.new(0.75, Color3.fromRGB(255, 140, 20)),
+                ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 180, 60))
+            },
+            TextColor = Color3.fromRGB(255, 240, 220),
+            SubTextColor = Color3.fromRGB(255, 190, 120),
+            ButtonGradient = ColorSequence.new{
+                ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 120, 10)),
+                ColorSequenceKeypoint.new(1, Color3.fromRGB(150, 50, 0))
+            },
+            Accent = Color3.fromRGB(255, 130, 20),
+            AccentDark = Color3.fromRGB(200, 80, 5),
+            AccentLight = Color3.fromRGB(255, 175, 80),
+            HeaderBtn = Color3.fromRGB(240, 110, 15),
+            DisplayName = "Halloween",
+            PreviewColors = {Color3.fromRGB(255, 120, 10), Color3.fromRGB(200, 80, 5), Color3.fromRGB(20, 12, 6)}
+        },
     },
     Current = nil,
     _listeners = {}
