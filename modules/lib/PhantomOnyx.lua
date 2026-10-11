@@ -977,7 +977,7 @@ return (function(...)
       BackgroundTransparency = 1,
       Position = UDim2.new(.5, 0, .5, 0),
       Size = UDim2.new(0, 0, 0, 0),
-      Image = "rbxassetid://87383580130479",
+      Image = "rbxassetid://72844035429290",
       ImageTransparency = 1,
       ScaleType = Enum.ScaleType.Fit,
       ZIndex = 1002
@@ -5856,7 +5856,7 @@ return (function(...)
       BackgroundTransparency = 1,
       BorderSizePixel = 0,
       Size = UDim2.new(1, 0, 1, 0),
-      Image = "rbxassetid://87383580130479",
+      Image = "rbxassetid://72844035429290",
       Active = true,
       Children = {createInstance("UICorner", {CornerRadius = UDim.new(1, 0)})}
     }, frame3)
